@@ -1,4 +1,4 @@
-document.getElementById('btn-submit').addEventListener('click', function () {
+const LoginButton = document.getElementById('btn-submit').addEventListener('click', function () {
     let emailField = document.getElementById('user-email')
     let email = emailField.value;
     // console.log(email)
@@ -10,5 +10,6 @@ document.getElementById('btn-submit').addEventListener('click', function () {
             'http://127.0.0.1:5500/inside-part.html'
     }
     else (alert('tui pass vule gechos ekhon ekhan theke ber ho'))
+    LoginButton.value = ''
 })
 
